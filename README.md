@@ -78,6 +78,24 @@ CSV: findings.csv
 All output files include a summary at the end:
 
 
+✅ How to Enable Full Key Visibility (For Authorized Audits Only)
+When running your script on systems you own or have written permission to test, use:
+Bash
+python api_key_hunter.py --git-repos https://github.com/your/repo.git --show-full-keys
+
+The --show-full-keys flag tells the script to disable masking.
+Without that flag, keys will remain partially masked for safety.
+🚨 Important
+If you discover exposed keys in:
+Public repositories
+Websites
+Infrastructure you don’t control
+The correct action is:
+Report responsibly
+Do not use them
+Do not redistribute them
+Do not publish them
+Unauthorized use of exposed credentials can be illegal.
 Safety & Disclaimer
 Keys are masked by default to protect sensitive information
 Use --show-full-keys only when safe to do so
