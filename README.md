@@ -29,7 +29,7 @@ I'm# API Key Hunter v1.0
 ### **Python (Termux/Linux/macOS)**
 1. Clone the repo:
 ```bash
-git clone https://github.com/unusually-anxious/api_key_hunter.git
+git clone https://github.com/unusually-anxious/API-Key-Hunter-v1.0
 cd api_key_hunter
 
 Install dependencies
