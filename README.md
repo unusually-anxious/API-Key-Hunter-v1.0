@@ -1,4 +1,4 @@
-# API Key Hunter v1.0
+I'm# API Key Hunter v1.0
 
 **API Key Hunter** is a multi-target scanner that discovers exposed API keys across Git repositories, websites, and local directories. It is multi-threaded, async-enabled for high performance, and supports masked-by-default keys with optional full key visibility.
 
@@ -104,9 +104,6 @@ Only scan repositories, websites, or directories you have permission to analyze
 This tool is intended for educational and security auditing purposes only
 Contribution & Development
 Pull requests welcome!
-Suggested structure for contributions:
-Add new API key regex patterns in API_PATTERNS
-Improve async crawling and subdomain detection
-Add tests in tests/ folder
+
 License
 This project is licensed under the MIT License.
