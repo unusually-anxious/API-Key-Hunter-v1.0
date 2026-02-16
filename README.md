@@ -30,7 +30,7 @@ I'm# API Key Hunter v1.0
 1. Clone the repo:
 ```bash
 git clone https://github.com/unusually-anxious/API-Key-Hunter-v1.0
-cd api_key_hunter
+cd API-Key-Hunter-v1.0
 
 Install dependencies
 
